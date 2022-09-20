@@ -45,4 +45,4 @@ def stock_purchases():
 
     share = f'{client_name} has ${budget} to invest and can buy {max_stock} shares of {stock_name} at the current price of ${stock}.'
     print(share)
-stock_purchases()
+#stock_purchases()
