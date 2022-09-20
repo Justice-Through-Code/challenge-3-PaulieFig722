@@ -37,7 +37,7 @@ def stock_purchases():
         stock = google
     elif stock_name == 'Microsoft':
         stock = msft
-    max_stock = (budget / stock)
+    max_stock = int(budget / stock)
 
     # 1.5 TODO: Once you've calculated the number of stocks that can be purchased,
     # Use an f-string to print the result for the client, ala:
@@ -45,4 +45,4 @@ def stock_purchases():
 
     share = f'{client_name} has ${budget} to invest and can buy {max_stock} shares of {stock_name} at the current price of ${stock}.'
     print(share)
-# stock_purchases()
+stock_purchases()
